@@ -3,6 +3,8 @@ var viewer = document.getElementById('viewer');
 
 getData('data/writings.json', receiveObject);
 
+console.log("Changing things.");
+
 function receiveObject(data){
   // Loop through each section
   for (var i = 0; i < data.length; i++) {
