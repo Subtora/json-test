@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: whitesmoke;
+}
+.content {
+  width: 600px;
+  margin: 100px auto;
+  overflow: hidden;
+}
+#list {
+  width: 30%;
+  float: left;
+}
+.section {
+  margin: 15px 0;
+}
+.section-name {
+  font-size: 1.4rem;
+}
+.poem-title {
+  cursor: pointer;
+  padding: 6px 12px;
+}
+.active {
+  background-color: lightgray;
+}
+#viewer {
+  width: 70%;
+  float: right;
+  background-color: white;
+  padding: 20px;
+}
